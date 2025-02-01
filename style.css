@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f3f3f3;
+}
+
+.header img {
+  margin-right: 20px;
+  margin-left: 60px;
+  border-radius: 5px;
+  
+}
+
+nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center; 
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.links li {
+  cursor: pointer;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.header button {
+  background-color: blue;
+  color: white;
+  border: none;
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.dashboard {
+  display: flex;
+  width: 90%;
+
+  height: auto;
+}
+
+.hero_heading {
+  flex: 1;
+  /* Allow the heading to take up available space */
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.hero_heading h1 {
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+  line-height: 34px;
+}
+
+.hero_heading p {
+  margin-top: 13px;
+}
+
+.hero_heading .common {
+  padding: 15px;
+  margin-top: 12px;
+  border: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+.hero_heading .common:hover {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.dashboard2 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.hero_images img {
+  width: 300px;
+  margin-top: 40px;
+  height: 295px;
+  border-radius: 10px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.diving {
+  width: 50%;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px auto;
+}
+
+.box {
+  text-align: center;
+  padding: 20px;
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.divider {
+  width: 2px;
+  background-color: black;
+  height: 80px;
+  align-self: center;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="personaldetails.css" />
+    <title>Personal Details</title>
+  </head>
+  <body>
+    <h1>Personal Details:</h1>
+    <form id="myform">
+    <img width="50" height="50" id="img" src="/images/avatar.jpeg" />
+    <input type="file" id="file" /><br />
+    <label for="job_title">Job Title:</label>
+    <input
+      type="text"
+      placeholder="The role you want"
+      name="job_title"
+      id="job_title"
+    /><br />
+    <label for="phone">Phone:</label>
+    <input type="number" name="phone" id="phone" /><br />
+    <label for="country">Country:</label>
+    <input type="text" name="country" id="country" /><br />
+    <label for="city">City:</label>
+    <input type="text" name="city" id="city" /><br />
+
+    <div>
+      <h1>Professional Summary</h1>
+      <textarea placeholder="Summary..."></textarea>
+    </div>
+
+    <h1>Job preferences</h1>
+    <code
+      >Tell us about the job you want. We use this information to find and
+      recommend the best jobs for you.<br />
+      Not sure? No problem, just tell us what you can.</code
+    >
+
+    <h2>Selected Location:</h2>
+    <label for="location">Location:</label>
+    <input type="text" name="location" id="location" /><br />
+    <p>Add up to 5 locations</p>
+
+    <h1>Work Experience</h1>
+    <p>
+      Show Your Releveant Experince(Last 10 years). Use Bullet point to note
+      your achievement. Just give it to your baest shot.
+    </p>
+
+    <h3 id="emp">Add Employment</h3>
+    <div id="employment-container"></div>
+
+    <h2>Select Your Skills</h2>
+    <div id="checkboxForm">
+      <label
+        ><input type="checkbox" name="skills" value="Web Development" /> Web
+        Development</label
+      ><br />
+      <label
+        ><input type="checkbox" name="skills" value="Android Development" />
+        Android Development</label
+      ><br />
+      <label
+        ><input type="checkbox" name="skills" value="iOS Development" /> iOS
+        Development</label
+      ><br />
+      <label
+        ><input type="checkbox" name="skills" value="Machine Learning" />
+        Machine Learning</label
+      ><br />
+      <label
+        ><input type="checkbox" name="skills" value="Deep Learning" /> Deep
+        Learning</label
+      ><br />
+      <label><input type="checkbox" name="skills" value="DSA" /> DSA</label
+      ><br />
+      <label
+        ><input type="checkbox" name="skills" value="Database" />
+        Database</label
+      ><br />
+      </div>
+
+    <div id="checkboxOutput"></div>
+
+    <h2>Courses</h2>
+    <h3 id="course">Add Course</h3>
+    <div id="outputCourse"></div>
+
+    <button type="button" id="btn">Save</button>
+  </form>
+    <script src="index.js" />
+  </body>
+</html>
